@@ -1,5 +1,30 @@
 * {
+    padding: 0;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 20px;
+    align-items: baseline;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .container {
@@ -19,6 +44,7 @@
 
 
 #btn {
+    margin-top: 20px;
     color: black;
     background-color: rgba(45, 345, 234, 5);
     font-size: 20px;
